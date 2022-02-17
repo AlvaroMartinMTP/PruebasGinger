@@ -53,17 +53,17 @@ public class Hooks extends RunCucumberTest {
 			caps.setPlatform(Platform.WINDOWS);
 
 			// Chrome
-			/*
+
 			System.setProperty("webdriver.chrome.driver", config.getProperty("chromePath"));
 			caps = DesiredCapabilities.chrome();
 			driver = new ChromeDriver();
-			*/
+
 
 			// Firefox
 
-			System.setProperty("webdriver.gecko.driver", config.getProperty("firefoxPath"));
-			caps = DesiredCapabilities.firefox();
-			driver = new FirefoxDriver();
+//			System.setProperty("webdriver.gecko.driver", config.getProperty("firefoxPath"));
+//			caps = DesiredCapabilities.firefox();
+//			driver = new FirefoxDriver();
 
 
 				driver.manage().window().maximize();
